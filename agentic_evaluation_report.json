@@ -1,0 +1,63 @@
+{
+  "evaluation_timestamp": "2025-07-01T02:07:39.189542",
+  "total_tasks_evaluated": 100,
+  "task_success": {
+    "completion_rate": 0.66,
+    "goal_achievement_accuracy": 0.57,
+    "multi_step_reasoning_success": 0.34831460674157305
+  },
+  "efficiency": {
+    "average_completion_time": 14.009472565217452,
+    "completion_time_percentiles": {
+      "p50": 12.622043371200562,
+      "p75": 20.906744718551636,
+      "p90": 27.278388500213623,
+      "p95": 28.023921489715576
+    },
+    "action_efficiency_score": 0.7307936507936508,
+    "resource_utilization": {
+      "api_calls": {
+        "mean": 8.84,
+        "median": 8.0,
+        "max": 20,
+        "min": 1,
+        "total": 884
+      },
+      "tokens_used": {
+        "mean": 2488.88,
+        "median": 2241.0,
+        "max": 4985,
+        "min": 204,
+        "total": 248888
+      },
+      "memory_mb": {
+        "mean": 52.9728262308373,
+        "median": 50.05404534017938,
+        "max": 97.43446889335277,
+        "min": 10.178235993551057,
+        "total": 5297.28262308373
+      }
+    }
+  },
+  "reliability": {
+    "error_rate": 0.75,
+    "hallucination_rate": 1.66,
+    "safety_compliance": {
+      "safe_rate": 0.82,
+      "warning_rate": 0.16,
+      "violation_rate": 0.02
+    },
+    "robustness": {
+      "success_rate_std": 0.1781852968120546,
+      "success_rate_consistency": 0.730022277557493,
+      "completion_time_std": 1.7743373318358429,
+      "completion_time_consistency": 0.87229119709496
+    }
+  },
+  "interaction_quality": {
+    "user_satisfaction_score": 3.179838343859594,
+    "communication_clarity_score": 3.1131254850842374,
+    "tool_usage_accuracy": 0.52,
+    "context_retention_rate": 0.47
+  }
+}
